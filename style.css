@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow-y: none;
   margin: 0;
 }
 
@@ -92,4 +93,29 @@ body {
   border-radius: 50%;
   object-fit: cover;
   margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Social {
+    transform: scale(1.2);
+  }
+
+  .links a {
+    padding: 15px 60px;
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .sub-title,
+  .text {
+    font-size: 13px;
+  }
+
+  .avatar img {
+    max-width: 80px;
+    height: 80px;
+  }
 }
